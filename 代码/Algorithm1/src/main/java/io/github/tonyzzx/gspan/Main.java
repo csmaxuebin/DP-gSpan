@@ -2,11 +2,11 @@ package io.github.tonyzzx.gspan;
 
 import org.apache.commons.cli.*;
 
-import java.io.File;
-import java.io.FileReader;
+import java.io.File;  // 将Java输入输出文件库引入到当前程序
+import java.io.FileReader;  // 将文件里的文本内容读取到控制台中
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Scanner;
+import java.util.Scanner;  // 通过Scanner类来获取⽤户的输⼊。
 
 public class Main {
     public static void main(String[] args) throws IOException {

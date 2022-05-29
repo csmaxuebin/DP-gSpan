@@ -1,14 +1,14 @@
 package io.github.tonyzzx.gspan;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.BufferedReader;  // 用BufferedReader类读写文件
+import java.io.FileReader;  // 读入写出文件
 import java.io.FileWriter;
-import java.io.IOException;
-import java.math.BigDecimal;
+import java.io.IOException;  // 检测输入输出异常
+import java.math.BigDecimal;  // 精确计算浮点数
 import java.util.*;
-import java.util.Map.Entry;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.Map.Entry;  // 在遍历map的时候用到
+import java.util.regex.Matcher;  // Matcher 对象是对输入字符串进行解释和匹配操作的引擎
+import java.util.regex.Pattern;  // pattern 对象是一个正则表达式的编译表示
 
 import io.github.tonyzzx.gspan.model.DFSCode;
 import io.github.tonyzzx.gspan.model.Edge;
@@ -73,7 +73,7 @@ public class gSpan {
 
     //BufferedReader
     private void read1() throws IOException {
-        FileReader fr = new FileReader("D:\\data\\yjs\\work\\githubcode\\邢江娜-一种基于模式增长的差分隐私频繁子图挖掘算法\\Algorithm1\\test_result");
+        FileReader fr = new FileReader("D:\\data\\yjs\\work\\githubcode\\邢江娜-一种基于模式增长的差分隐私频繁子图挖掘算法\\代码\\Algorithm1\\test_result");
         BufferedReader bfr = new BufferedReader(fr);
         //BufferedReader writer = new BufferedReader(is1);
         ArrayList<String> test_result = new ArrayList<>();
@@ -240,7 +240,7 @@ public class gSpan {
 
         int[] del = new int[count1];//存储被删除的图的id//26
         //List<Integer> dellist= new ArrayList<Integer>();
-        FileWriter out = new FileWriter("D:\\data\\yjs\\work\\githubcode\\邢江娜-一种基于模式增长的差分隐私频繁子图挖掘算法\\Algorithm1\\test_result1");
+        FileWriter out = new FileWriter("D:\\data\\yjs\\work\\githubcode\\邢江娜-一种基于模式增长的差分隐私频繁子图挖掘算法\\代码\\Algorithm1\\test_result1");
         int i1 = 0;
         for (int r1 = 0; r1 < (count3 + 1); r1++) {
             if (deep[r1] > l) {
@@ -272,7 +272,7 @@ public class gSpan {
         //文档1中的
         //String s="";
         int SZ = 0;
-        FileReader fr1 = new FileReader("D:\\data\\yjs\\work\\githubcode\\邢江娜-一种基于模式增长的差分隐私频繁子图挖掘算法\\Algorithm1\\test_result1");
+        FileReader fr1 = new FileReader("D:\\data\\yjs\\work\\githubcode\\邢江娜-一种基于模式增长的差分隐私频繁子图挖掘算法\\代码\\Algorithm1\\test_result1");
         BufferedReader bfr1 = new BufferedReader(fr1);
         ArrayList<Integer> test_result1 = new ArrayList<>();
         if (test_result1 != null) {
@@ -342,7 +342,7 @@ public class gSpan {
 
         //int k = 20;
         //List<Integer> listF_score2 = new ArrayList<Integer>();//hm3new的key
-        FileWriter out1 = new FileWriter("D:\\data\\yjs\\work\\githubcode\\邢江娜-一种基于模式增长的差分隐私频繁子图挖掘算法\\Algorithm1\\test_result2");
+        FileWriter out1 = new FileWriter("D:\\data\\yjs\\work\\githubcode\\邢江娜-一种基于模式增长的差分隐私频繁子图挖掘算法\\代码\\Algorithm1\\test_result2");
         //选出前k=15个
         for (Map.Entry<Integer, Double> mapping : list) {//在hm3中选出前k个
             //i4++;

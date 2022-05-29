@@ -1,6 +1,6 @@
 package io.github.tonyzzx.gspan;
 
-import java.util.ArrayList;
+import java.util.ArrayList;  // 动态数组
 import io.github.tonyzzx.gspan.model.Edge;
 import io.github.tonyzzx.gspan.model.Graph;
 import io.github.tonyzzx.gspan.model.History;
