@@ -34,7 +34,26 @@ This paper compares the DP-gSpan algorithm with two other differential privacy-b
 - Specific allocations of the privacy budget were as follows: ε1 = 0.01ε, ε2 = 0.5ε, and ε3 = 0.49ε.
 - To address the randomness inherent in differential privacy protection algorithms, each experiment was performed 10 times, with the average of all results taken as the final outcome.
 
+# Java Files
 
+1. **Main.java**:
+   - This file serves as the main entry point of a Java application. It initializes and coordinates the execution of different modules or functionalities provided in the rest of the application.
+
+2. **AlgorithmZ.java**:
+   - Another algorithm implementation, distinct from AlgorithmD. This file contains methods and logic for a different set of operations or calculations, tailored to particular requirements or data types.
+
+3. **BottomKSketch.java**:
+   - Contains an implementation of a sketching algorithm that approximates the bottom 'k' elements in a dataset. It is typically used in scenarios where processing large datasets efficiently is required, focusing on elements with minimal values.
+
+4. **EdgeHandler.java**:
+   - Manages edge operations in graph data structures, including the addition and deletion of edges. This file is particularly useful in applications involving dynamic graph algorithms or real-time processing of graph-based data.
+
+5. **ReservoirSampling.java**:
+   - Implements the Reservoir Sampling algorithm, which is used to randomly select a sample of 'k' items from a stream of data of unknown size. It's useful in data streaming scenarios where memory efficiency is critical.
+
+
+6. **UniformHasher.java**:
+   - Implements hashing functionalities, utilizing a uniform hashing strategy to distribute input values evenly. This hasher could be employed in hash tables, load balancing algorithms, or for ensuring data distribution uniformity.
 
 
 #  Experimental Results
