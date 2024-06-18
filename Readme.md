@@ -44,7 +44,9 @@ The performance of the three algorithms for mining top 50 frequent subgraphs und
 Fig.8 and Fig.9 show the performance of DP-gSpan, DFG, and DFPM in the Top-k frequent subgraph mining experiment with different k values.
 Fig.10 shows the performance of DP-gSpan and gSpan in the Top-k frequent subgraph mining experiment with different k values.
 
-![输入图片说明](/imgs/2024-06-16/ptRhoSn9YP22ESx2.png)
+![输入图片说明](https://github.com/csmaxuebin/DP-gSpan/blob/main/pic/fig4-6.jpg)
+![输入图片说明](https://github.com/csmaxuebin/DP-gSpan/blob/main/pic/fig7-8.jpg)
+![输入图片说明](https://github.com/csmaxuebin/DP-gSpan/blob/main/pic/fig9-10.jpg)
 
 
 
